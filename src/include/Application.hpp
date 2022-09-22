@@ -17,3 +17,4 @@ class Application
         void update(sf::Time deltaTime);
         void render();
 };
+
