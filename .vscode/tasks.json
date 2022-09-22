@@ -9,7 +9,7 @@
                 "-g",
                 "${workspaceFolder}\\src\\*.cpp",
                 "-o",
-                "${workspaceFolder}\\bin\\Game.exe",
+                "${workspaceFolder}\\bin\\AquaPhysics.exe",
                 "-I",
                 "C:\\libs\\SFML-2.5.1\\include",
                 "-I",
@@ -18,9 +18,7 @@
                 "C:\\libs\\SFML-2.5.1\\lib",
                 "-lsfml-graphics",
                 "-lsfml-window",
-                "-lsfml-system",
-                "-lsfml-audio",
-                "-lsfml-network",
+                "-lsfml-system"
             ],
             "options": {
                 "cwd": "${fileDirname}"
