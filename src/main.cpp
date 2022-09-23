@@ -4,6 +4,5 @@ int main()
 {
     Application* app;
     app = new Application(600, 400);
-    app->run();
-        
+    app->run();    
 }

@@ -1,5 +1,9 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <iostream>
+#include <vector>
+
+#include "Ball.hpp"
 
 class Application
 {
@@ -7,7 +11,8 @@ class Application
         sf::RenderWindow window;
         sf::Event event;
         sf::Clock clock;
-        sf::Vector2i windowSize;
+        std::vector<Ball> vecBalls;
+        int timer = 0;
     public:
         Application(int win_x, int win_y);
         ~Application();
