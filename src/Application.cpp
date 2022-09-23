@@ -35,3 +35,4 @@ void Application::render()
     window.clear();
     window.display();
 }
+
