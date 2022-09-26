@@ -26,3 +26,5 @@ void Ball::drawTo(sf::RenderWindow& window)
     window.draw(ballCircle);
 }
 
+
+

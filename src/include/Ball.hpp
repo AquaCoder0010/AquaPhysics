@@ -21,5 +21,9 @@ class Ball
         {
             return ID;
         }
-
+        float radius()
+        {
+            return ballCircle.getRadius();
+        }
 };
+
